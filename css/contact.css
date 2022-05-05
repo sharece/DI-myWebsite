@@ -1,0 +1,17 @@
+.contactme {
+  font-family: "Monserrat", sans-serif;
+  font-size: 39px;
+  color: #66bfbf;
+  display: flex;
+  justify-content: center;
+  margin-top: 97px;
+  padding-bottom: 110px;
+}
+.contactmemo {
+  display: flex;
+  justify-content: center;
+  font-family: "Monserrat", sans-serif;
+  font-size: 18px;
+  color: #66bfbf;
+  padding-bottom: 25px;
+}

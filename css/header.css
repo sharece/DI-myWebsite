@@ -1,0 +1,76 @@
+.header__right-cloud {
+  position: absolute;
+  top: 54px;
+  right: 288px;
+  /* left: 1283px; */
+}
+
+.header__left-cloud {
+  position: absolute;
+  top: 338px;
+  left: 355px;
+}
+.header__bus {
+  position: relative;
+  width: 475px;
+  margin: 0 auto;
+  display: block;
+  top: 41px;
+}
+
+.header {
+  padding-top: 150px;
+  background-color: #e4f9f5;
+}
+
+/* .header__title {
+  margin: 0 0 34px;
+  color: #66bfbf;
+  font-family: 8.9rem;
+  text-align: center;
+} */
+
+.header__title {
+  margin: 0;
+  color: #66bfbf;
+  font-family: "Sacramento", cursive;
+  font-size: 89px;
+  font-weight: 400px;
+  text-align: center;
+}
+
+.header__subtitle {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.content .profilepic {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 67.15px;
+}
+
+.greeting {
+  font-family: "Monserrat";
+  font-size: 39px;
+  color: #66bfbf;
+  display: flex;
+  justify-content: center;
+}
+
+.bio {
+  font-family: merriweather;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 44px;
+}
+
+.dots {
+  width: 66px;
+  margin: 0 auto;
+  border-top: 6px dotted #eaf6f6;
+  margin-top: 97px;
+}

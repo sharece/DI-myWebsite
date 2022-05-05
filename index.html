@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sharece Silva</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">I'm Sharece</h1>
+      <h2 class="header__subtitle">I'm not quite there yet</h2>
+
+      <img src="images/bus.png" alt="bus" class="header__bus" />
+
+      <img
+        class="header__right-cloud"
+        src="images/rightcloud.png"
+        alt="right cloud"
+      />
+
+      <img
+        class="header__left-cloud"
+        src="images/leftcloud.png"
+        alt="left cloud"
+      />
+    </header>
+
+    <main class="content">
+      <section class="profilepic">
+        <img src="images/mug.png" alt="profilepic" width="180" />
+      </section>
+
+      <section class="greeting">Aloha!</section>
+
+      <section class="bio">Im a student at Dev-Island, Kaua'i.</section>
+
+      <section class="dots"></section>
+      <section class="myskills">My Skills</section>
+
+      <section class="skills">
+        <section class="customerservice">
+          <section class="customertitle">Customer Service</section>
+          <section class="customerimage">
+            <img src="images/customer-service.png" alt="headset" width="180" />
+          </section>
+          <section class="firsttext">
+            I have 10+ years experience in customer care.
+          </section>
+        </section>
+
+        <section class="mothersection">
+          <section class="momimage">
+            <img src="images/mother.png" alt="mother" width="180" />
+          </section>
+          <section class="momtitle">Makuahine</section>
+          <section class="secondtext">
+            I am a mother of 2 specializing in Iris and Maeva.
+          </section>
+        </section>
+        </section>
+
+        <section class="dots"></section>
+        <section class="contact">
+          <section class="contactme">Contact Me</section>
+          <section class="contactmemo">
+            Does my random yet limited skill set interest you?
+          </section>
+          <!-- <button class="contactBtn">Contact</button> -->
+          <button type="button"
+          class="contactBtn modal__open:focus"
+          data-dismis="modal__body"
+          aria-label="close"
+          >Contact</button>
+        </section>
+      </section>
+      <footer class="footer">
+        <footer class="rectangle">
+          <footer class="footer__text">2022 Sharece Silva @ Dev-Island</footer>
+        </footer>
+      </footer>
+    </main>
+    <!-- <button id="modalBtn">Open Modal</button> -->
+    <div class="modal modal_is_closed">
+
+      <div class="modal__overlay"></div>
+      <div class="modal__body">
+        <header class="modal__header">
+          Contact Me
+          <button type="button"
+          class="modal__close-btn modal__close:focus"
+          data-dismis="modal"
+          aria-label="close"
+          >&#x2715;
+        </button>
+        </header>
+        <div class="modal__content">
+          <form class="form">
+            <div class="form__element">
+              <label for="" class="form__label">Full Name</label>
+              <input
+                type="text"
+                class="form__input"
+                placeholder=""/>
+              </div>
+              <label for="#email" class="form__label">Email Address</label>
+                <input
+                id="email"
+                name="email"
+                type="text"
+                class="form__input"
+                placeholder="Email Here"
+              />
+              <label for="#message" class="form__label">Message</label>
+              <input
+                id="message"
+                name="message"
+                cols="30"
+                row="10"
+                class="form__input"
+                placeholder="Your Message"
+              />
+              <footer class="modal__footer">
+              <button class="modal__action">Send
+              </button>
+              </footer>
+          </form>
+        </main>
+        </div>
+      </div>
+    </div>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,19 @@
+.footer {
+  position: absolute;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  left: 0px;
+  top: 2529px;
+  background: #66bfbf;
+  border-radius: 0px;
+  width: 2529px;
+}
+.rectange {
+  background: #66bfbf;
+  border-radius: 0px;
+  width: 1721px;
+}
+.footer__text {
+  font-family: merriweather;
+  text-align: center;
+}
