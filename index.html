@@ -74,8 +74,8 @@
           <!-- <button class="contactBtn">Contact</button> -->
           <button type="button"
           class="contactBtn modal__open:focus"
-          data-dismis="modal__body"
-          aria-label="close"
+          data-dismis="modal_is_closed"
+          aria-label="modal__open"
           >Contact</button>
         </section>
       </section>
@@ -86,7 +86,8 @@
       </footer>
     </main>
     <!-- <button id="modalBtn">Open Modal</button> -->
-    <div class="modal modal_is_closed">
+    <main>
+    <div class="modal">
 
       <div class="modal__overlay"></div>
       <div class="modal__body">
@@ -102,12 +103,12 @@
         <div class="modal__content">
           <form class="form">
             <div class="form__element">
-              <label for="" class="form__label">Full Name</label>
+              <label for="#name" class="form__label">Full Name</label>
               <input
                 type="text"
                 class="form__input"
-                placeholder=""/>
-              </div>
+                placeholder="Full name here"/>
+              <!-- </div> -->
               <label for="#email" class="form__label">Email Address</label>
                 <input
                 id="email"
@@ -130,11 +131,12 @@
               </button>
               </footer>
           </form>
-        </main>
+        </header> 
         </div>
       </div>
     </div>
     <script src="./scripts/index.js"></script>
+    </main>
   </body>
 </html>
 
